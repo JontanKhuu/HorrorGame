@@ -23,7 +23,11 @@ public class Player : MonoBehaviour
         movePlayer();
     }
     public void movePlayer()
+<<<<<<< Updated upstream
     {
+=======
+    {
+>>>>>>> Stashed changes
         if (move.sqrMagnitude > 0.1f)
         {
             Vector3 movement = new Vector3(move.x, 0f, move.y);
